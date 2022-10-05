@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 375px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+/* Typography */
+h1 {
+    font-size: 12px
+}
+
+.likes {
+    font-weight: bold;
+    margin: 5px 13px;
+}
+
+.comment {
+    margin: 8px;
+    font-size: 13px;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+
+.webpage-logo {
+    width: 100px;
+    height: 50px;
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.post {
+    width: 100%;
+    height: auto;  
+}
+.picture-heading {
+    display: flex;
+    border-top: 1px solid #C8C8C8;
+    padding-top: 25px;
+    margin-top: 4px;
+    margin-left: 13px;
+}
+
+.artist-avatar {
+    margin-right: 10px;
+}
+
+h1 span {
+    display: block;
+    font-weight: 400;
+    line-height: 25px;
+}
+.icons{
+    margin-left: 13px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    padding: 10px 3px;
+    margin-bottom: 2px;
+}
+
+.icon:hover,
+.icon:focus {
+    -webkit-filter: blur(5px);
+    filter: blur(0.6px);
+}
+
+.comment {
+    margin-right: 13px;
+    margin-bottom: 16px;
+}
